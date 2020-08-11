@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /upload/
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /ckfinder/
+Disallow: /ckeditor/ckeditor/

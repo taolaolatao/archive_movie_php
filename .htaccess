@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^goc-18.html$ goc-18.php [L]
+RewriteRule ^phim-chieu-rap.html$ phim-chieu-rap.php [L]
+RewriteRule ^phim-thuyet-minh.html$ phim-thuyet-minh.php [L]
+RewriteRule ^phim-bo.html$ phim-bo.php [L]
+RewriteRule ^phim-le.html$ phim-le.php [L]
+RewriteRule ^quan-ly.html$ quanly.php [L]
+RewriteRule ^quan-ly-phim-bo.html$ quanlyphimbo.php [L]
+RewriteRule ^quan-ly-phim-chieu-rap.html$ quanlyphimchieurap.php [L]
+RewriteRule ^quan-ly-phim-18.html$ quanlyphim18.php [L]
+RewriteRule ^quan-ly-phim-le.html$ quanlyphimle.php [L]
+RewriteRule ^chi-tiet-phim/([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ chitietphim.php?ID=$1&MAPHIM=$2&title$3
+RewriteRule ^xem-phim/([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ xemphim.php?ID=$1&MAPHIM=$2&title$3
+

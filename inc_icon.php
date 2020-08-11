@@ -1,0 +1,1 @@
+<link rel="shortcut icon" type="ico" href="http://www.phimmoi.net/favicon.png">
